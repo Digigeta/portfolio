@@ -1,0 +1,57 @@
+<style>
+
+      a {
+        color: aquamarine;
+      }
+      a {
+        color:goldenrod;
+      }
+
+      li {
+        color:gold;
+        border-style:initial;
+        list-style-type:dashed;
+      }
+
+      p {
+        color:gold;
+      }
+
+      h4 {
+        color:goldenrod;
+      }
+
+      h3 {
+        color: goldenrod;
+        border-style: dotted;
+        border-width: 2px;
+        border-color: goldenrod;
+        border-radius:1%
+      }
+      
+      h2 {
+        color: goldenrod;
+        border-style:solid;
+        border-width: 3px;
+        border-color: goldenrod;
+        border-radius:3%
+      }
+
+      h1 {
+        color: goldenrod;
+        border-style: solid;
+        border-width: 3px;
+        border-color: goldenrod;
+        border-radius: 3%;
+      }
+    
+      img {
+        border-style: solid;
+        border-color: goldenrod;
+        border-width: 3px;
+      }
+      body {
+        background-color: grey;
+      }
+
+</style>
