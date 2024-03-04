@@ -5,16 +5,44 @@
     <meta name="viewport" content="width=device-width" />
     <title>Project list</title>
     <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-  </head>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+    <style>
+        p {
+            font-family: "Nunito", sans-serif;
+            font-style: normal;
+        }
+
+        h1 {
+            font-family: "Roboto Slab", serif;
+            font-style: normal;
+        }
+    </style>
+    </head>
   
   <body>
     <header>
-        <h1> Mikael Mulugeta - Web Developer </h1>   
-    <img src="images/mikael-working.jpeg" height="300" width="300" alt="Headshot of Mikael Mulugeta" />
+        <section class="container">
+        <h1 class="box"> Mikael Mulugeta - Web Developer </h1>
+        </section>
+        <section class="container">
+        <img class="box" src="images/mikael-working.jpeg" height="300" width="300" alt="Headshot of Mikael Mulugeta"/>
+        </section>
+        <section class="container">
         <p>Hi, I'm Mikael. I'm a web developer interested in serving small businesses in Seattle at affordable rates. Welcome to my site!</p>
-
+        </section>
         <nav>
             <a href="about-me.html"> About Me </a>
+            <i class="fa-solid fa-person"></i>
         </nav>
     </header>
     
@@ -22,6 +50,7 @@
         <section>
             <p>In addition to my own project, I'm interested in working with a few local businesses.</p>
             <h3> Metier Brewing</h3>
+            <i class="fa-solid fa-beer-mug-empty"></i>
             <article>
                 <h4>Black-owned Seattle Brewery</h4>
                 <p>Enjoy a beer, some finger food, and catch a show!</p>
@@ -34,6 +63,7 @@
 
         <section>
             <h3> Cherry Street Thai</h3>
+            <i class="fa-solid fa-bowl-food"></i>
             <article>
                 <h4>Fast. Generous Servings. Tasty. What more can you ask for?</h4>
                 <p>One of the best Thai spots in Central Seattle.</p>
@@ -46,6 +76,7 @@
 
         <section>
             <h3> Zagol</h3>
+            <i class="fa-solid fa-plate-wheat"></i>
             <article>
                 <h4>Serving Up Massive Ethiopian Dinners</h4>
                 <p>Bring your friends and enjoy a <em>goursha</em>!</p>

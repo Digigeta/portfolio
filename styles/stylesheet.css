@@ -1,5 +1,15 @@
 <style>
 
+.box {
+  height: 300px;
+  width: 300px;
+  }
+.container {
+  display: flex;
+  flex-direction:inherit; 
+  flex-wrap:wrap;
+  justify-content:center;
+}
       a {
         color: aquamarine;
       }
