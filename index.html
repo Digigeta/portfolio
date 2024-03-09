@@ -26,6 +26,17 @@
             font-family: "Roboto Slab", serif;
             font-style: normal;
         }
+        a:hover {
+        color: yellow;
+        border: 3px solid goldenrod;
+        }
+        a {
+         transition-property: border;
+         transition-duration: 2s;
+         transition-timing-function: ease-in;
+         transition-delay: 1s;
+        }
+
     </style>
     </head>
   
@@ -41,7 +52,7 @@
         <p>Hi, I'm Mikael. I'm a web developer interested in serving small businesses in Seattle at affordable rates. Welcome to my site!</p>
         </section>
         <nav>
-            <a href="about-me.html"> About Me </a>
+            <a href="about-me.html" class="About"> About Me </a>
             <i class="fa-solid fa-person"></i>
         </nav>
     </header>

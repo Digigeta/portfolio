@@ -10,6 +10,13 @@
   flex-wrap:wrap;
   justify-content:center;
 }
+      a:first-child {
+        color: rgb(6, 59, 163);
+      }
+      li:nth-child(3){
+        color: rgb(6, 59, 163);
+      }
+
       a {
         color: aquamarine;
       }
